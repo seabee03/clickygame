@@ -48,6 +48,9 @@
         "count": 0
     },
     {
-        
-    }
+        "id": 9,
+        "name": "Barney",
+        "image": "https://en.wikipedia.org/wiki/Barney_Gumble#/media/File:Barney_Gumble.png",
+        "count": 0
+    },
 ]
