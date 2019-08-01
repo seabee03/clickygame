@@ -76,4 +76,23 @@ class App extends React.Component {
       div.style.opacity = 0;
     }, 750)
   }
+
+  render () {
+    return (
+      <div className="wrapper">
+        <Header score={this.state.score} highscore={this.state.highscore}/>
+        <div className="card-container">
+          {this.state.cards.map(card => (
+            <Card
+              cardClick={this.cardClick}
+              key={card.id}
+              id={card.id}
+              image={card.image}
+              />
+          ))}
+        </div>
+        <div className="instructions">Click an image to begin. Try not to click the same image twice</div>
+      </div>
+    );
+  }
 }
