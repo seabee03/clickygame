@@ -29,4 +29,10 @@
         "image": "https://en.wikipedia.org/wiki/Maggie_Simpson#/media/File:Maggie_Simpson.png",
         "count": 0
     },
+    {
+        "id": 6,
+        "name": "Abe",
+        "image": "https://en.wikipedia.org/wiki/Grampa_Simpson#/media/File:Abe_Simpson.png",
+        "count": 0
+    },
 ]
