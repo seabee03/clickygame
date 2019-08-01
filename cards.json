@@ -17,5 +17,13 @@
         "image": "https://en.wikipedia.org/wiki/Bart_Simpson#/media/File:Bart_Simpson_200px.png",
         "count": 0
     },
-    
+    {
+        "id": 4,
+        "name": "Lisa",
+        "image": "https://en.wikipedia.org/wiki/Lisa_Simpson#/media/File:Lisa_Simpson.png",
+        "count": 0
+    },
+    {
+        ""
+    }
 ]
