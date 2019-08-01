@@ -31,4 +31,31 @@ class App extends React.Component {
     this.shuffleCards(this.state.cards);
     return true;
   }
+
+  cardClick = id => {
+    this.state.cards.find((e, i) => {
+      // If the clicked element's id matches an id for a card
+      if (e.id === id) {
+        // if the card thats clicked has a counter of zero
+        if (cards[i].count === 0) {
+          // This sets the clicked card as counted
+          cards[i].count = cards[i].count + 1;
+          this.setState({ score: this.state.score + 1}, function() {
+            console.log(this.state.score)
+            this.correctText()
+            if (this.state.score === cards.length) {
+              console.log("You won!")
+              this.gameOver();
+            }
+          });
+          // This shuffles the cards after a guess
+          this.shuffleCards(this.state.cards);
+          return true;
+          // Else, you already clicked it and the game is over
+        } else {
+          this.gameOver();
+        }
+      };
+    });
+  };
 }
