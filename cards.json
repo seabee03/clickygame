@@ -4,13 +4,18 @@
         "name": "Homer",
         "image": "https://en.wikipedia.org/wiki/Homer_Simpson#/media/File:Homer_Simpson_2006.png",
         "count": 0
-    }
+    },
     {
         "id": 2,
         "name": "Marge"
-        "image": "https://en.wikipedia.org/wiki/Marge_Simpson#/media/File:Marge_Simpson.png"
-    }
+        "image": "https://en.wikipedia.org/wiki/Marge_Simpson#/media/File:Marge_Simpson.png",
+        "count": 0
+    },
     {
-        
-    }
+        "id": 3,
+        "name": "Bart"
+        "image": "https://en.wikipedia.org/wiki/Bart_Simpson#/media/File:Bart_Simpson_200px.png",
+        "count": 0
+    },
+    
 ]
