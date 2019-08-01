@@ -1,5 +1,5 @@
 import React from "react";
-import "./components/styles/Header.css";
+import "./css/Header.css";
 
 function Header(props) {
     console.log(props)
