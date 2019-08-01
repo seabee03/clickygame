@@ -53,4 +53,10 @@
         "image": "https://en.wikipedia.org/wiki/Barney_Gumble#/media/File:Barney_Gumble.png",
         "count": 0
     },
+    {
+        "id": 10,
+        "name": "Apu",
+        "image": "https://en.wikipedia.org/wiki/Apu_Nahasapeemapetilon#/media/File:Apu_Nahasapeemapetilon_(The_Simpsons).png",
+        "count": 0
+    },
 ]
