@@ -67,4 +67,13 @@ class App extends React.Component {
     }
     return array;
   };
+
+  // This tells you that you clicked the card and its correct
+  correctText = () => {
+    const div = document.getElementById("win-lose");
+    div.style.opacity = 1;
+    setTimeout(function() {
+      div.style.opacity = 0;
+    }, 750)
+  }
 }
