@@ -5,4 +5,12 @@
         "image": "https://en.wikipedia.org/wiki/Homer_Simpson#/media/File:Homer_Simpson_2006.png",
         "count": 0
     }
+    {
+        "id": 2,
+        "name": "Marge"
+        "image": "https://en.wikipedia.org/wiki/Marge_Simpson#/media/File:Marge_Simpson.png"
+    }
+    {
+        
+    }
 ]
