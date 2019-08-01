@@ -65,4 +65,10 @@
         "image": "https://en.wikipedia.org/wiki/Moe_Szyslak#/media/File:Moe_Szyslak.png",
         "count": 0
     },
+    {
+        "id": 12,
+        "name": "Milhouse",
+        "image": "https://en.wikipedia.org/wiki/Milhouse_Van_Houten#/media/File:Milhouse_Van_Houten.png",
+        "count": 0
+    }
 ]
